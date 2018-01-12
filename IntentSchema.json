@@ -1,0 +1,121 @@
+{
+  "intents": [
+    {
+      "intent": "AcceptSoupIntent"
+    },
+    {
+      "intent": "ActivateIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "BlasterIntent"
+    },
+    {
+      "intent": "BoofIntent"
+    },
+    {
+      "intent": "BuildingIntent"
+    },
+    {
+      "intent": "CatchIntent"
+    },
+    {
+      "intent": "ChristianIntent"
+    },
+    {
+      "intent": "DeactivateIntent"
+    },
+    {
+      "intent": "FlexIntent"
+    },
+    {
+      "intent": "FollowIntent"
+    },
+    {
+      "intent": "GetNewFactIntent"
+    },
+    {
+      "intent": "GoblinKingIntent"
+    },
+    {
+      "intent": "GradeIntent"
+    },
+    {
+      "intent": "InspectSignIntent"
+    },
+    {
+      "intent": "KeyIntent"
+    },
+    {
+      "intent": "LaserPileIntent"
+    },
+    {
+      "intent": "NoIntent"
+    },
+    {
+      "intent": "NotGradeIntent"
+    },
+    {
+      "intent": "NotWanderIntent"
+    },
+    {
+      "intent": "PasswordIntent"
+    },
+    {
+      "intent": "PizzaIntent"
+    },
+    {
+      "intent": "ProceedLeftIntent"
+    },
+    {
+      "intent": "RedIntent"
+    },
+    {
+      "intent": "RejectSoupIntent"
+    },
+    {
+      "intent": "RiceBeastIntent"
+    },
+    {
+      "intent": "RobotPileIntent"
+    },
+    {
+      "intent": "RoomIntent"
+    },
+    {
+      "intent": "ShootRobotIntent"
+    },
+    {
+      "intent": "StayPutIntent"
+    },
+    {
+      "intent": "SteelDoorIntent"
+    },
+    {
+      "intent": "SwordIntent"
+    },
+    {
+      "intent": "TakePillIntent"
+    },
+    {
+      "intent": "TurquoiseIntent"
+    },
+    {
+      "intent": "VioletIntent"
+    },
+    {
+      "intent": "WanderIntent"
+    },
+    {
+      "intent": "WoodDoorIntent"
+    }
+  ]
+}

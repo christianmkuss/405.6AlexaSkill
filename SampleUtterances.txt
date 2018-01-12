@@ -1,0 +1,96 @@
+AcceptSoupIntent accept the soup
+AcceptSoupIntent take soup
+AcceptSoupIntent soup
+ActivateIntent activate
+BlasterIntent use the blaster
+BlasterIntent blaster
+BlasterIntent the blaster
+BoofIntent boof
+BuildingIntent go to the building
+BuildingIntent the building
+BuildingIntent use the building
+BuildingIntent building
+CatchIntent catch
+ChristianIntent christian
+DeactivateIntent deactivate
+FlexIntent flex
+FlexIntent flex muscles
+FollowIntent follow
+GetNewFactIntent start new game
+GetNewFactIntent play new game
+GetNewFactIntent new game
+GoblinKingIntent goblin king
+GoblinKingIntent go to goblin king
+GoblinKingIntent goblin
+GradeIntent grade
+InspectSignIntent inspect the sign
+InspectSignIntent the sign
+InspectSignIntent inspect
+InspectSignIntent sign
+KeyIntent key
+KeyIntent use the key
+KeyIntent the key
+LaserPileIntent go to lasers
+LaserPileIntent go to laser pile
+LaserPileIntent lasers
+LaserPileIntent laser pile
+NoIntent no
+NotGradeIntent do not grade
+NotGradeIntent not grade
+NotWanderIntent do not wander
+NotWanderIntent not wander
+PasswordIntent password
+PasswordIntent blah
+PasswordIntent poop
+PasswordIntent banana
+PasswordIntent chicken
+PasswordIntent anything
+PasswordIntent number
+PasswordIntent letter
+PasswordIntent desk
+PasswordIntent xbox
+PasswordIntent light
+PasswordIntent hi
+PizzaIntent pizza
+ProceedLeftIntent proceed left
+ProceedLeftIntent left
+ProceedLeftIntent go left
+ProceedLeftIntent proceed right
+ProceedLeftIntent right
+ProceedLeftIntent go right
+RedIntent red
+RedIntent red button
+RejectSoupIntent reject soup
+RejectSoupIntent no soup
+RiceBeastIntent rice beast
+RobotPileIntent robots
+RobotPileIntent robot pile
+RobotPileIntent go to robot pile
+RobotPileIntent go to robots
+RoomIntent yes
+ShootRobotIntent shoot
+ShootRobotIntent pull the trigger
+ShootRobotIntent fire
+StayPutIntent stay put
+StayPutIntent stay
+SteelDoorIntent go through the steel door
+SteelDoorIntent steel door
+SteelDoorIntent use the steel door
+SteelDoorIntent the steel door
+SwordIntent use the sword
+SwordIntent sword
+SwordIntent the sword
+TakePillIntent take the pill
+TakePillIntent pill
+TakePillIntent use the pill
+TakePillIntent the pill
+TurquoiseIntent turquoise
+TurquoiseIntent turquoise button
+VioletIntent violet
+VioletIntent violet button
+WanderIntent wander
+WoodDoorIntent wood door
+WoodDoorIntent go through the wood door
+WoodDoorIntent wooden door
+WoodDoorIntent use the wood door
+WoodDoorIntent use the wooden door
