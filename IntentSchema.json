@@ -1,121 +1,321 @@
 {
-  "intents": [
-    {
-      "intent": "AcceptSoupIntent"
-    },
-    {
-      "intent": "ActivateIntent"
-    },
-    {
-      "intent": "AMAZON.CancelIntent"
-    },
-    {
-      "intent": "AMAZON.HelpIntent"
-    },
-    {
-      "intent": "AMAZON.StopIntent"
-    },
-    {
-      "intent": "BlasterIntent"
-    },
-    {
-      "intent": "BoofIntent"
-    },
-    {
-      "intent": "BuildingIntent"
-    },
-    {
-      "intent": "CatchIntent"
-    },
-    {
-      "intent": "ChristianIntent"
-    },
-    {
-      "intent": "DeactivateIntent"
-    },
-    {
-      "intent": "FlexIntent"
-    },
-    {
-      "intent": "FollowIntent"
-    },
-    {
-      "intent": "GetNewFactIntent"
-    },
-    {
-      "intent": "GoblinKingIntent"
-    },
-    {
-      "intent": "GradeIntent"
-    },
-    {
-      "intent": "InspectSignIntent"
-    },
-    {
-      "intent": "KeyIntent"
-    },
-    {
-      "intent": "LaserPileIntent"
-    },
-    {
-      "intent": "NoIntent"
-    },
-    {
-      "intent": "NotGradeIntent"
-    },
-    {
-      "intent": "NotWanderIntent"
-    },
-    {
-      "intent": "PasswordIntent"
-    },
-    {
-      "intent": "PizzaIntent"
-    },
-    {
-      "intent": "ProceedLeftIntent"
-    },
-    {
-      "intent": "RedIntent"
-    },
-    {
-      "intent": "RejectSoupIntent"
-    },
-    {
-      "intent": "RiceBeastIntent"
-    },
-    {
-      "intent": "RobotPileIntent"
-    },
-    {
-      "intent": "RoomIntent"
-    },
-    {
-      "intent": "ShootRobotIntent"
-    },
-    {
-      "intent": "StayPutIntent"
-    },
-    {
-      "intent": "SteelDoorIntent"
-    },
-    {
-      "intent": "SwordIntent"
-    },
-    {
-      "intent": "TakePillIntent"
-    },
-    {
-      "intent": "TurquoiseIntent"
-    },
-    {
-      "intent": "VioletIntent"
-    },
-    {
-      "intent": "WanderIntent"
-    },
-    {
-      "intent": "WoodDoorIntent"
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "four hundred five point six",
+      "intents": [
+        {
+          "name": "AcceptSoupIntent",
+          "slots": [],
+          "samples": [
+            "accept the soup",
+            "take soup",
+            "soup"
+          ]
+        },
+        {
+          "name": "ActivateIntent",
+          "slots": [],
+          "samples": [
+            "activate"
+          ]
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "BlasterIntent",
+          "slots": [],
+          "samples": [
+            "use the blaster",
+            "blaster",
+            "the blaster"
+          ]
+        },
+        {
+          "name": "BuildingIntent",
+          "slots": [],
+          "samples": [
+            "go to the building",
+            "the building",
+            "use the building",
+            "building"
+          ]
+        },
+        {
+          "name": "CatchIntent",
+          "slots": [],
+          "samples": [
+            "catch"
+          ]
+        },
+        {
+          "name": "ChristianIntent",
+          "slots": [],
+          "samples": [
+            "christian"
+          ]
+        },
+        {
+          "name": "DeactivateIntent",
+          "slots": [],
+          "samples": [
+            "deactivate"
+          ]
+        },
+        {
+          "name": "FlexIntent",
+          "slots": [],
+          "samples": [
+            "flex",
+            "flex muscles"
+          ]
+        },
+        {
+          "name": "FollowIntent",
+          "slots": [],
+          "samples": [
+            "follow"
+          ]
+        },
+        {
+          "name": "GoblinKingIntent",
+          "slots": [],
+          "samples": [
+            "goblin king",
+            "go to goblin king",
+            "goblin"
+          ]
+        },
+        {
+          "name": "GradeIntent",
+          "slots": [],
+          "samples": [
+            "grade"
+          ]
+        },
+        {
+          "name": "InspectSignIntent",
+          "slots": [],
+          "samples": [
+            "inspect the sign",
+            "the sign",
+            "inspect",
+            "sign"
+          ]
+        },
+        {
+          "name": "KeyIntent",
+          "slots": [],
+          "samples": [
+            "key",
+            "use the key",
+            "the key"
+          ]
+        },
+        {
+          "name": "LaserPileIntent",
+          "slots": [],
+          "samples": [
+            "go to lasers",
+            "go to laser pile",
+            "lasers",
+            "laser pile"
+          ]
+        },
+        {
+          "name": "NoIntent",
+          "slots": [],
+          "samples": [
+            "no"
+          ]
+        },
+        {
+          "name": "NotGradeIntent",
+          "slots": [],
+          "samples": [
+            "do not grade",
+            "not grade"
+          ]
+        },
+        {
+          "name": "NotWanderIntent",
+          "slots": [],
+          "samples": [
+            "do not wander",
+            "not wander"
+          ]
+        },
+        {
+          "name": "PizzaIntent",
+          "slots": [],
+          "samples": [
+            "pizza"
+          ]
+        },
+        {
+          "name": "ProceedLeftIntent",
+          "slots": [],
+          "samples": [
+            "proceed left",
+            "left",
+            "go left",
+            "proceed right",
+            "right",
+            "go right"
+          ]
+        },
+        {
+          "name": "RedIntent",
+          "slots": [],
+          "samples": [
+            "red",
+            "red button"
+          ]
+        },
+        {
+          "name": "RejectSoupIntent",
+          "slots": [],
+          "samples": [
+            "reject soup",
+            "no soup"
+          ]
+        },
+        {
+          "name": "RiceBeastIntent",
+          "slots": [],
+          "samples": [
+            "rice beast"
+          ]
+        },
+        {
+          "name": "RobotPileIntent",
+          "slots": [],
+          "samples": [
+            "robots",
+            "robot pile",
+            "go to robot pile",
+            "go to robots"
+          ]
+        },
+        {
+          "name": "RoomIntent",
+          "slots": [],
+          "samples": [
+            "yes"
+          ]
+        },
+        {
+          "name": "ShootRobotIntent",
+          "slots": [],
+          "samples": [
+            "shoot",
+            "pull the trigger",
+            "fire"
+          ]
+        },
+        {
+          "name": "StayPutIntent",
+          "slots": [],
+          "samples": [
+            "stay put",
+            "stay"
+          ]
+        },
+        {
+          "name": "SteelDoorIntent",
+          "slots": [],
+          "samples": [
+            "go through the steel door",
+            "steel door",
+            "use the steel door",
+            "the steel door"
+          ]
+        },
+        {
+          "name": "SwordIntent",
+          "slots": [],
+          "samples": [
+            "use the sword",
+            "sword",
+            "the sword"
+          ]
+        },
+        {
+          "name": "TakePillIntent",
+          "slots": [],
+          "samples": [
+            "take the pill",
+            "pill",
+            "use the pill",
+            "the pill"
+          ]
+        },
+        {
+          "name": "TurquoiseIntent",
+          "slots": [],
+          "samples": [
+            "turquoise",
+            "turquoise button"
+          ]
+        },
+        {
+          "name": "VioletIntent",
+          "slots": [],
+          "samples": [
+            "violet",
+            "violet button"
+          ]
+        },
+        {
+          "name": "WanderIntent",
+          "slots": [],
+          "samples": [
+            "wander"
+          ]
+        },
+        {
+          "name": "WoodDoorIntent",
+          "slots": [],
+          "samples": [
+            "wood door",
+            "go through the wood door",
+            "wooden door",
+            "use the wood door",
+            "use the wooden door"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "StartGameIntent",
+          "slots": [],
+          "samples": [
+            "play game",
+            "play",
+            "play a game",
+            "play a new game",
+            "start new game",
+            "start a game",
+            "start a new game"
+          ]
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        }
+      ],
+      "types": []
     }
-  ]
+  }
 }

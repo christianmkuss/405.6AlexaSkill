@@ -5,7 +5,6 @@ ActivateIntent activate
 BlasterIntent use the blaster
 BlasterIntent blaster
 BlasterIntent the blaster
-BoofIntent boof
 BuildingIntent go to the building
 BuildingIntent the building
 BuildingIntent use the building
