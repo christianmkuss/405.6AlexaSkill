@@ -8,7 +8,7 @@ import java.util.HashMap;
 class Agoroth {
     static boolean FLEX = false;
 
-    private static String[] tellResponses = { "PizzaIntent", "ProceedLeftIntent", "ProceedRightIntent", "GradeIntent", "RejectSoupIntent"};
+    private static String[] tellResponses = {"PizzaIntent", "ProceedLeftIntent", "ProceedRightIntent", "GradeIntent", "RejectSoupIntent"};
     private static String[] ssmlResponses = {
             "WoodDoorIntent",
             "RejectSoupIntent",
@@ -23,7 +23,7 @@ class Agoroth {
     static HashMap<String, String> AgorothSpeech = new HashMap<>();
 
     static {
-        final String surrounding = "<speak>As the creatures surround you, the sounds of hoofs, the smell of horses and " +
+        final String surrounding = "As the creatures surround you, the sounds of hoofs, the smell of horses and " +
                 "rainbows, and the sight of glowing horns and rainbows made you realize that you are surrounded by a herd " +
                 "of Glownicorns, the most majestic of all Warnicorn races. The largest Glownicorn approaches you. <prosody " +
                 "pitch=high> ? </prosody><speak>";
@@ -57,15 +57,15 @@ class Agoroth {
         );
         AgorothSpeech.put(
                 "FlexMoreIntent",
-                "You flex some more. You realize that flexing your measly muscles isn't going to break even the " +
+                "<speak>You flex some more. You realize that flexing your measly muscles isn't going to break even the " +
                         "thinnest of strings. You should have pumped more iron when you had the chance. Your rustling " +
                         "alerts the chanting creatures to your presence and they surround you. " + surrounding
         );
         AgorothSpeech.put(
                 "StayPutIntent",
-                FLEX ? "You're just not that buff. But your past movements alerted the chanting creatures to your " +
+                FLEX ? "<speak>You're just not that buff. But your past movements alerted the chanting creatures to your " +
                         "presence and they surround you. " + surrounding :
-                        "You decide to stay put. Who knows, the vines look really frail and you might have been able to " +
+                        "<speak>You decide to stay put. Who knows, the vines look really frail and you might have been able to " +
                                 "break it with you ginormous muscles. An hour later one of the chanting creatures check " +
                                 "on you. Realizing that you are awake, the creatures surround you. " + surrounding
         );
@@ -172,7 +172,8 @@ class Agoroth {
     }
 
     static SpeechletResponse agorothIntent(String intentName) {
-        if(intentName.equals("FlexIntent") || intentName.equals("StayPutIntent")) AdventureGameSpeechlet.PASSWORD = true;
+        if (intentName.equals("FlexIntent") || intentName.equals("StayPutIntent"))
+            AdventureGameSpeechlet.PASSWORD = true;
         return Response.response(
                 AgorothSpeech.get(intentName),
                 Arrays.asList(ssmlResponses).contains(intentName),
